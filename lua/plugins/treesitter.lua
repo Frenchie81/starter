@@ -1,0 +1,26 @@
+return {
+  "nvim-treesitter/nvim-treesitter",
+  opts = {
+    ensure_installed = {
+      "bash",
+      "diff",
+      "html",
+      "javascript",
+      "typescript",
+      "c_sharp",
+      "csv",
+      "markdown",
+      "markdown_inline",
+      "regex",
+      "rust",
+      "toml",
+      "vim",
+      "vimdoc",
+      "yaml",
+      "terraform",
+      "hcl",
+      "query",
+    },
+    auto_install = true,
+  },
+}
