@@ -1,12 +1,17 @@
 return {
   {
-    "projekt0n/github-nvim-theme",
+    "folke/tokyonight.nvim",
     lazy = true,
+    opts = { style = "night" },
   },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "github_dark",
-    },
-  },
+  -- {
+  --   "projekt0n/github-nvim-theme",
+  --   lazy = true,
+  -- },
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     colorscheme = "github_dark",
+  --   },
+  -- },
 }
