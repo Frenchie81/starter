@@ -1,6 +1,6 @@
 return {
   "rest-nvim/rest.nvim",
-  dependencies = { { "vhyrro/luarocks.nvim" } },
+  dependencies = { { "nvim-lua/plenary.nvim" } },
   config = function()
     local rest_nvim = require("rest-nvim")
 
