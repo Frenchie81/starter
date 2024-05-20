@@ -4,6 +4,7 @@ return {
     opts = {
       colorscheme = "carbonfox",
     },
+    lazy = false,
     config = function()
       require("nightfox").setup({
         options = {
