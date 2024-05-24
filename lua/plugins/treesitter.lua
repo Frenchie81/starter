@@ -1,6 +1,6 @@
 return {
   "nvim-treesitter/nvim-treesitter",
-  commit = "4ae2b452e9bd67ff618e3bb0e3488e49c98465e9",
+  --commit = "4ae2b452e9bd67ff618e3bb0e3488e49c98465e9",
   opts = {
     ensure_installed = {
       "bash",
