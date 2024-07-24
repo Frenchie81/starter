@@ -4,5 +4,8 @@ return {
     servers = {
       cssls = {},
     },
+    inlay_hints = {
+      enabled = false,
+    },
   },
 }
