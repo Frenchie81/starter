@@ -1,13 +1,17 @@
 return {
+  {
+    "folke/tokyonight.nvim",
+    lazy = true,
+    opts = { style = "night" },
+  },
   -- {
   --   "dasupradyumna/midnight.nvim",
   --   lazy = false,
-  --   priority = 1000,
   -- },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin-mocha",
-    },
-  },
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     colorscheme = "catppuccin-mocha",
+  --   },
+  -- },
 }
