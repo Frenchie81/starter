@@ -1,12 +1,12 @@
 return {
   {
-    "AlexvZyl/nordic.nvim",
+    "projekt0n/github-nvim-theme",
     lazy = true,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nordic",
+      colorscheme = "github_dark_dimmed",
     },
   },
 }
