@@ -11,6 +11,9 @@ require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugin
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    -- Mason is pinned to version 1 for now: https://github.com/LazyVim/LazyVim/issues/6039
+    { "mason-org/mason.nvim", version = "^1.0.0" },
+    { "mason-org/mason-lspconfig.nvim", version = "^1.0.0" },
     -- import any extras modules here
     { import = "lazyvim.plugins.extras.lang.omnisharp" },
     { import = "lazyvim.plugins.extras.lang.rust" },
