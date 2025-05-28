@@ -37,8 +37,8 @@ return {
   },
   keys = {
     -- Run API request
-    { "<leader>h", "<cmd>HurlRunner<CR>", desc = "Run All requests" },
-    { "<leader>H", "<cmd>HurlRunnerAt<CR>", desc = "Run Api request" },
+    { "<leader>H", "<cmd>HurlRunner<CR>", desc = "Run All requests" },
+    { "<leader>h", "<cmd>HurlRunnerAt<CR>", desc = "Run Api request" },
     { "<leader>te", "<cmd>HurlRunnerToEntry<CR>", desc = "Run Api request to entry" },
     { "<leader>tm", "<cmd>HurlToggleMode<CR>", desc = "Hurl Toggle Mode" },
     { "<leader>tv", "<cmd>HurlVerbose<CR>", desc = "Run Api in verbose mode" },
