@@ -1,4 +1,10 @@
 return {
   "williamboman/mason.nvim",
-  opts = { ensure_installed = { "css-lsp" } },
+  opts = {
+    registries = {
+      "github:mason-org/mason-registry",
+      "github:Crashdummyy/mason-registry",
+    },
+    ensure_installed = { "css-lsp" },
+  },
 }
