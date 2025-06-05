@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory in oil" })
+vim.keymap.set("i", "jj", "<Esc>", { desc = "Exit insert mode" })
